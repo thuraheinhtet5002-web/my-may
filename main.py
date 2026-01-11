@@ -113,5 +113,5 @@ def main():
     # Render မှာ polling နဲ့ပဲ run လို့ရပါတယ် (Web service ဖြစ်လို့ Port ပွင့်နေဖို့ပဲလိုတာပါ)
     app.run_polling(allowed_updates=["message", "chat_member"])
 
-if name == '__main__':
+if __name__ == '__main__':
     main()
